@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ASSEY Comércio e Serviços Integrados - Fornecimento técnico para órgãos públicos na Baixada Santista. Credenciado SICAF.">
+    <title>ASSEY | Comércio e Serviços Integrados</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        asseyBlue: '#0f172a', /* Azul Marinho Profundo */
+                        asseyOrange: '#f97316', /* Laranja Segurança */
+                        asseyGray: '#f3f4f6',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans text-slate-800 antialiased bg-gray-50">
+
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold tracking-tighter text-asseyBlue flex items-center gap-2">
+                        <i class="fa-solid fa-cube text-asseyOrange text-3xl"></i>
+                        ASSEY
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="text-gray-600 hover:text-asseyBlue font-medium transition">Início</a>
+                    <a href="#servicos" class="text-gray-600 hover:text-asseyBlue font-medium transition">Atuação</a>
+                    <a href="#compliance" class="text-gray-600 hover:text-asseyBlue font-medium transition">Compliance</a>
+                    <a href="#contato" class="bg-asseyBlue text-white px-5 py-2 rounded-md hover:bg-slate-800 transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>Fale Conosco
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="pt-32 pb-20 bg-asseyBlue text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto">
+                <div class="inline-block bg-asseyOrange text-white text-xs font-bold px-3 py-1 rounded-full mb-6 uppercase tracking-wider shadow-sm">
+                    Credenciado SICAF Níveis I a IV
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Soluções Técnicas em <span class="text-asseyOrange">Suprimentos B2G</span>
+                </h1>
+                <p class="text-xl text-slate-300 mb-10 font-light">
+                    Fornecimento de materiais, ferramentas e insumos para órgãos públicos com rigor técnico, conformidade fiscal e logística eficiente na Baixada Santista.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="https://wa.me/5513996110493" class="bg-asseyOrange text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-orange-600 transition shadow-xl transform hover:-translate-y-1">
+                        Solicitar Cotação Oficial
+                    </a>
+                    <a href="#compliance" class="border border-slate-500 text-slate-200 px-8 py-4 rounded-lg font-medium hover:bg-white/10 transition">
+                        Ver Dados Cadastrais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white relative -mt-10 z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border-t-4 border-asseyBlue hover:shadow-md transition">
+                    <div class="text-asseyBlue text-4xl mb-4"><i class="fa-solid fa-file-contract"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Compliance Total</h3>
+                    <p class="text-gray-600">Regularidade Fiscal, Trabalhista e Previdenciária atualizada. Prontidão para empenho imediato.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border-t-4 border-asseyOrange hover:shadow-md transition">
+                    <div class="text-asseyOrange text-4xl mb-4"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Logística Regional</h3>
+                    <p class="text-gray-600">Foco estratégico na Baixada Santista (Itanhaém e região) garantindo entregas ágeis e frete competitivo.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border-t-4 border-asseyBlue hover:shadow-md transition">
+                    <div class="text-asseyBlue text-4xl mb-4"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Mix Técnico</h3>
+                    <p class="text-gray-600">Especialistas em CNAE 4744-0/99. Materiais de construção, elétrica e ferramentas profissionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="compliance" class="py-20 bg-slate-100">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row">
+                <div class="bg-asseyBlue text-white p-10 md:w-1/3 flex flex-col justify-center">
+                    <h2 class="text-2xl font-bold mb-4">Dados Cadastrais</h2>
+                    <p class="text-slate-400 text-sm">Utilize estes dados para emissão de Nota de Empenho ou convites.</p>
+                    <div class="mt-8">
+                        <i class="fa-solid fa-shield-halved text-4xl text-asseyOrange"></i>
+                    </div>
+                </div>
+                <div class="p-10 md:w-2/3">
+                    <div class="grid grid-cols-1 gap-6">
+                        <div>
+                            <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Razão Social</p>
+                            <p class="text-lg font-semibold text-gray-800">63.628.670 EDISON PEREIRA JUNIOR</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">CNPJ</p>
+                                <p class="text-lg font-mono text-gray-800">63.628.670/0001-77</p>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Inscrição Estadual</p>
+                                <p class="text-lg font-mono text-gray-800">369.323.488.111</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-gray-400 uppercase tracking-wider">Endereço Fiscal</p>
+                            <p class="text-gray-700">Rua Minas Gerais, 531 - Balneário Gaivota, Itanhaém/SP - CEP: 11754-604</p>
+                        </div>
+                        <div class="pt-4 border-t border-gray-100">
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                                <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                                Situação Cadastral: ATIVA
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-cube text-asseyOrange"></i> ASSEY
+                </h3>
+                <p class="mb-4 text-sm max-w-xs">Empresa focada em eficiência operacional e fornecimento técnico para o setor público.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-linkedin text-xl"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+                </div>
+            </div>
+            <div class="md:text-right">
+                <h4 class="text-white font-bold mb-4">Canais Oficiais</h4>
+                <p class="mb-2"><i class="fa-regular fa-envelope mr-2"></i> contato@assey.com.br</p>
+                <p class="mb-2"><i class="fa-brands fa-whatsapp mr-2"></i> (13) 99611-0493</p>
+                <p class="text-xs mt-8 opacity-50">© 2025 ASSEY Comércio e Serviços Integrados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
